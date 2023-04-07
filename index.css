@@ -1,0 +1,44 @@
+.navbar {
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar p {
+  align-items: center;
+  justify-content: center;
+  font: 2em sans-serif;
+}
+@media screen and (max-width: 600px) {
+  .navbar p {
+    font: 1em sans-serif;
+  }
+}
+
+.boxes {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font: 1em sans-serif;
+}
+
+input {
+  padding: auto;
+  margin: 5px;
+  width: 65px;
+  border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn {
+  margin-top: 10px;
+}
